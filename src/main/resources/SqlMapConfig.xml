@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--<properties resource="db.properties"/>-->
+    <typeAliases>
+        <package name="com.scj.model"/>
+    </typeAliases>
+    <!--<environments default="development">-->
+        <!--<environment id="development">-->
+            <!--&lt;!&ndash; 使用jdbc事务管理&ndash;&gt;-->
+            <!--<transactionManager type="JDBC" />-->
+            <!--&lt;!&ndash; 数据库连接池&ndash;&gt;-->
+            <!--<dataSource type="POOLED">-->
+                <!--<property name="driver" value="${jdbc.driver}" />-->
+                <!--<property name="url" value="${jdbc.url}" />-->
+                <!--<property name="username" value="${jdbc.username}" />-->
+                <!--<property name="password" value="${jdbc.password}" />-->
+            <!--</dataSource>-->
+        <!--</environment>-->
+    <!--</environments>-->
+
+<!--用了spring的scanner，这个就不需要了-->
+    <!--<mappers>-->
+        <!--&lt;!&ndash;<dao resource="dao/UserDao.xml"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<mapper resource="mapper/UserMapper.xml"/>&ndash;&gt;-->
+        <!--<package name="com.scj.mapper"/>-->
+    <!--</mappers>-->
+
+
+</configuration>
